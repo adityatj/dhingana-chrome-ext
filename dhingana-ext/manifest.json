@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery-1.10.2.js", "g2.js" ],
+      "matches": [ "http://www.dhingana.com/*"]
+   } ],
+   "description": "Download songs from Dhingana with ease!",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "48": "48.png"
+   },
+   "manifest_version": 2,
+   "web_accessible_resources": ["jquery-1.10.2.min.map"],
+   "name": "Dhingana Audio Downloader",
+   "version": "0.2"
+}
